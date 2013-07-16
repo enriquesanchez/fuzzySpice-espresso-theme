@@ -9,4 +9,5 @@ How to Install
 --------------
 
 Navigate to Library > Application Support > Espresso > Themes and copy fussySpice.css
+
 Restart Espresso.
