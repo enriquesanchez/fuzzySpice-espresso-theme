@@ -1,0 +1,114 @@
+/*
+    @theme fuzzySpice
+    @override-placeholders html, xml, css, sourcecode.js, sourcecode.php
+    @author Enrique Sanchez
+    @version 1.0
+    
+    Based on http://blogs.adobe.com/typblography/2012/09/source-code-pro.html
+*/
+
+@base {
+	background-color: #293c4a;
+	color: #bebdbd;
+	selection-background-color: rgba(241, 110, 170, .7);
+	insertion-point-color: #fff;
+}
+
+html, tag, sourcecode, css, python, ruby, javascript {
+	spell-check: disabled;
+}
+
+string, 
+* text.html > tag.html > attribute-value.string.quoted,
+php string delimiter,
+* css > property-value {
+	color: #dec065;
+}
+
+* tag entity.name,
+tag > name,
+css > property-name,
+* php keyword,
+operator {
+	color: #81c267;
+}
+
+comment, 
+comment *,
+comment.block,
+comment.line.double-slash,
+comment > punctuation,
+tag.doctype, 
+tag.doctype > *, 
+tag.doctype > string.quoted {
+	color: #f16eaa;
+	font-style: italic;
+}
+
+css pseudo-class {
+	background-color: rgba(0, 0, 0, .1);
+}
+
+* php function name, 
+* php identifier.function,
+attribute-name, 
+* selector.css {
+	color: #1dbec8;
+}
+
+* php keyword.definition,
+* php variable,
+* php literal.keyword {
+	color: #1dbec8;
+	font-style: italic;
+}
+
+variable, variable > punctuation {
+	color: #1dbec8;
+	font-weight: bold;
+}
+
+punctuation.definition {
+	color: #81c267;
+}
+
+operator {
+	color: #626fc9;
+}
+
+open-bracket, close-bracket {
+	color: #7f7f7f;
+}
+
+support.function, function-call {
+	color: #f16eaa;
+}
+
+keyword.control, storage.type {
+	color: #81c267;
+	background-color: rgba(0,0,0,0.15);
+}
+
+function {
+	color: #1dbec8;
+}
+
+js.embedded {
+	color: #c0ae9b;
+}
+
+constant.numeric, constant.language {
+	color: #f16eaa;
+	background-color: rgba(0,0,0,0.15);
+}
+
+invalid {
+	background-color: #f93232;
+	color: #f9f2ce;
+}
+textile > header {
+	font-weight: bold;
+}
+* selector.css {
+	color: #FF8E4B;
+}
