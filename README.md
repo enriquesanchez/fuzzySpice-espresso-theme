@@ -5,7 +5,6 @@ fussySpize is an [Espresso](http://macrabbit.com/espresso/) theme based on [http
 
 [Check out a preview](example.png)
 
-
 How to Install
 --------------
 
