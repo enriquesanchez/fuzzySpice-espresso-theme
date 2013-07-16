@@ -1,5 +1,5 @@
-fuzzySpice-espresso-theme
-=========================
+fuzzySpice
+==========
 
 fussySpize is an [Espresso](http://macrabbit.com/espresso/) theme based on [http://blogs.adobe.com/typblography/2012/09/source-code-pro.html](http://blogs.adobe.com/typblography/2012/09/source-code-pro.html)
 
